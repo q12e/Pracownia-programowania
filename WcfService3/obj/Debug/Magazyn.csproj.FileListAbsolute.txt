@@ -1,0 +1,9 @@
+D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WcfService3\bin\WcfService3.dll.config
+D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WcfService3\bin\WcfService3.dll
+D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WcfService3\bin\WcfService3.pdb
+D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WcfService3\bin\Utwor.dll
+D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WcfService3\bin\Utwor.pdb
+D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WcfService3\obj\Debug\Magazyn.csprojResolveAssemblyReference.cache
+D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WcfService3\obj\Debug\Magazyn.csproj.CoreCompileInputs.cache
+D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WcfService3\obj\Debug\WcfService3.dll
+D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WcfService3\obj\Debug\WcfService3.pdb
