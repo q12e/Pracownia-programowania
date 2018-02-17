@@ -17,14 +17,14 @@ namespace WebApplication1
         protected void Button2_Click(object sender, EventArgs e)
         {
             string nazwa = naz.Text;
-            int ilosc = Convert.ToInt32(ilosc.Text);
-            int cena = Convert.ToInt32(cena.Text);
-            int nr_magazynu = Convert.ToInt32(nr_magazynu.Text);
+            int ilosc1 = Convert.ToInt32(ilosc.Text);
+            int cena1 = Convert.ToInt32(cena.Text);
+            int nr_magazynu1 = Convert.ToInt32(nr_magazynu.Text);
 
 
             Polaczenie.WCFServiceClient klient = new Polaczenie.WCFServiceClient();
             klient.Open();
-            klient.dodajTowar(nazwa, ilosc, cena, nr_magazynu);
+            klient.dodajTowar(nazwa, ilosc1, cena1, nr_magazynu1);
 
             Response.Write("<script LANGUAGE='JavaScript' >alert('Towar dodany pomyślnie')</script>");
 

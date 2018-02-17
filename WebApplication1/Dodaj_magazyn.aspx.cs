@@ -23,12 +23,12 @@ namespace WebApplication1
         protected void Button2_Click(object sender, EventArgs e)
         {
             string nazwa = naz.Text;
-            string miasto = miasto.Text;
-            string adres = adres.Text;
+            string miasto1 = miasto.Text;
+            string adres1 = adres.Text;
 
             Polaczenie.WCFServiceClient klient = new Polaczenie.WCFServiceClient();
             klient.Open();
-            klient.dodajMagazyn(nazwa, miasto, adres);
+            klient.dodajMagazyn(nazwa, miasto1, adres1);
 
             Response.Write("<script LANGUAGE='JavaScript' >alert('Magazyn dodany pomyślnie')</script>");
 

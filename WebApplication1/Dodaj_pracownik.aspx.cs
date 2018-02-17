@@ -23,16 +23,16 @@ namespace WebApplication1
 
         protected void Button6_Click(object sender, EventArgs e)
         {
-            string imie = imie.Text;
-            string nazwisko = nazwisko.Text;
-            int pesel = Convert.ToInt32(pesel.Text);
-            int nr_magazynu = Convert.ToInt32(nr_magazynu.Text);
+            string imie1 = imie.Text;
+            string nazwisko1 = nazwisko.Text;
+            int pesel1 = Convert.ToInt32(pesel.Text);
+            int nr_magazynu1 = Convert.ToInt32(nr_magazynu.Text);
   
 
 
             Polaczenie.WCFServiceClient klient = new Polaczenie.WCFServiceClient();
             klient.Open();
-            klient.dodajPracownika(imie, nazwisko, pesel, nr_magazynu);
+            klient.dodajPracownika(imie1, nazwisko1, pesel1, nr_magazynu1);
 
             Response.Write("<script LANGUAGE='JavaScript' >alert('Pracownik dodany pomyślnie')</script>");
 
