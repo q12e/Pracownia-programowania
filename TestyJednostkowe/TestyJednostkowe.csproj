@@ -79,6 +79,10 @@
       <Project>{7aac0cec-d03e-4a0a-b8f6-67811f8b2fb3}</Project>
       <Name>Magazyn</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WebApplication1\WebApplication1.csproj">
+      <Project>{deb42daa-fa19-4d1f-8c0d-215947432037}</Project>
+      <Name>WebApplication1</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
