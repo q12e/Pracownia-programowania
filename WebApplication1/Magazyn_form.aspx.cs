@@ -21,12 +21,12 @@ namespace WebApplication1
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Dodaj_wydawnictwo.aspx");
+            Response.Redirect("~/Dodaj_magazyn.aspx");
         }
 
         protected void Button1_Click1(object sender, EventArgs e)
         {
-            Response.Redirect("~/Usun_wydawnictwo.aspx");
+            Response.Redirect("~/Usun_magazyn.aspx");
         }
     }
 }

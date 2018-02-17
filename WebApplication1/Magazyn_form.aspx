@@ -10,7 +10,7 @@
 <body bgcolor="#ffd480">
     <center>
     <form id="form4" runat="server">
-        <h1>Wydawnictwa<br /></h1>
+        <h1>Magazyny<br /></h1>
         <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" style="margin-right: 1px" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="SqlDataSource1">
             <AlternatingRowStyle BackColor="White" />
             <Columns>

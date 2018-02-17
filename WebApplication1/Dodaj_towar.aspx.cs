@@ -34,7 +34,7 @@ namespace WebApplication1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Album_form.aspx");
+            Response.Redirect("~/Towar_form.aspx");
         }
     }
 }

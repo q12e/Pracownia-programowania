@@ -21,22 +21,22 @@ namespace WebApplication1
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Dodaj_utwor.aspx");
+            Response.Redirect("~/Dodaj_pracownik.aspx");
         }
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Usun_utwor.aspx");
+            Response.Redirect("~/Usun_pracownik.aspx");
         }
 
         protected void Button2_Click1(object sender, EventArgs e)
         {
-            Response.Redirect("~/Dodaj_utwor.aspx");
+            Response.Redirect("~/Dodaj_pracownik.aspx");
         }
 
         protected void Button3_Click1(object sender, EventArgs e)
         {
-            Response.Redirect("~/Usun_utwor.aspx");
+            Response.Redirect("~/Usun_pracownik.aspx");
         }
     }
 }

@@ -121,8 +121,8 @@ namespace WebApplication1.Polaczenie {
             return base.Channel.usunPracownikaAsync(id_pracownika);
         }
         
-        public void usunTowar(int id_towaru) {
-            base.Channel.usunTowar(id_towaru);
+        public void usunTowar(int id) {
+            base.Channel.usunTowar(id);
         }
         
         public System.Threading.Tasks.Task usunTowarAsync(int id_towaru) {

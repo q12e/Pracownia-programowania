@@ -73,9 +73,9 @@ namespace Magazyn1
         {
             Operacje_na_bazie baza = new Operacje_na_bazie();
             baza.ConnectToSQL();
-            SqlCommand cmd = new SqlCommand("INSERT INTO [_Pracownicy] (id, imie, nazwisko, pesel, id_magazynu) VALUES "
-                + "(@id, @imie, @nazwisko, @pesel, @id_magazynu)", baza.GetConnection());
-            cmd.Parameters.Add("@id", Pracownicy.getId_pracownika());
+            SqlCommand cmd = new SqlCommand("INSERT INTO [_Pracownicy] ( imie, nazwisko, pesel, id_magazynu) VALUES "
+                + "( @imie, @nazwisko, @pesel, @id_magazynu)", baza.GetConnection());
+            //cmd.Parameters.Add("@id", Pracownicy.getId_pracownika());
             cmd.Parameters.Add("@imie", Pracownicy.getImie());
             cmd.Parameters.Add("@nazwisko", Pracownicy.getNazwisko());
             cmd.Parameters.Add("@pesel", Pracownicy.getPesel());
@@ -111,9 +111,9 @@ namespace Magazyn1
             Operacje_na_bazie baza = new Operacje_na_bazie();
             baza.ConnectToSQL();
 
-            SqlCommand cmd = new SqlCommand("INSERT INTO [_Magazyny] (id, nazwa, miasto, adres) VALUES "
-                + "(@id, @nazwa, @miasto, @adres)", baza.GetConnection());
-            cmd.Parameters.Add("@id", magazyny.getId_magazynu());
+            SqlCommand cmd = new SqlCommand("INSERT INTO [_Magazyny] (nazwa, miasto, adres) VALUES "
+                + "(@nazwa, @miasto, @adres)", baza.GetConnection());
+         //   cmd.Parameters.Add("@id", magazyny.getId_magazynu());
             cmd.Parameters.Add("@nazwa", magazyny.getNazwa());
             cmd.Parameters.Add("@miasto", magazyny.getMiasto());
             cmd.Parameters.Add("@adres", magazyny.getAdres());

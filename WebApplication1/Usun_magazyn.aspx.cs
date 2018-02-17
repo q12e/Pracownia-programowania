@@ -16,7 +16,7 @@ namespace WebApplication1
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/Wydawnictwo_form.aspx");
+            Response.Redirect("~/Magazyn_form.aspx");
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -26,7 +26,7 @@ namespace WebApplication1
             klient.Open();
             klient.usunMagazyn(id);
             klient.Close();
-            Response.Redirect("~/Usun_wydawnictwo.aspx");
+            Response.Redirect("~/Usun_magazyn.aspx");
         }
     }
 }
