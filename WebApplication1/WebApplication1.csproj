@@ -263,8 +263,6 @@
   <ItemGroup>
     <Content Include="Towar_form.aspx" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
-    <Content Include="ClassDiagram1.cd" />
-    <Content Include="ClassDiagram2.cd" />
     <None Include="Connected Services\Polaczenie\WCFService.disco" />
     <None Include="Connected Services\Polaczenie\configuration91.svcinfo" />
     <None Include="Connected Services\Polaczenie\configuration.svcinfo" />
