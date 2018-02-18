@@ -11,10 +11,10 @@ namespace Magazyn1
         private int id_pracownika;
         private string imie;
         private string nazwisko;
-        private long pesel;
+        private string pesel;
         private int id_magazynu;
 
-        public Pracownicy(int id_pracownika, string imie, string nazwisko, long pesel, int id_magazynu )
+        public Pracownicy(int id_pracownika, string imie, string nazwisko, string pesel, int id_magazynu )
         {
             this.id_pracownika = id_pracownika;
             this.imie = imie;
@@ -57,12 +57,12 @@ namespace Magazyn1
         }
 
 
-        public void setPesel(long pesel)
+        public void setPesel(string pesel)
         {   
             this.pesel = pesel;
         }
 
-        public long getPesel()
+        public string getPesel()
         {
 
             return pesel;

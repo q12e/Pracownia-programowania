@@ -25,8 +25,8 @@ namespace WebApplication1
         {
             string imie1 = imie.Text;
             string nazwisko1 = nazwisko.Text;
-            long pesel1 = Convert.ToInt64(pesel.Text);
-            int nr_magazynu = Convert.ToInt32(nr_magazynuu.Text);
+            string pesel1 = pesel.Text;
+            int nr_magazynu = Convert.ToInt32(magazyn.Text);
   
 
 

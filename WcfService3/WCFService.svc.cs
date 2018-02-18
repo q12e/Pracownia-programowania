@@ -26,7 +26,7 @@ namespace Wcf_Service
 
         }
 
-        public void dodajPracownika(string imie, string nazwisko, long pesel, int id_magazynu)
+        public void dodajPracownika(string imie, string nazwisko, string pesel, int id_magazynu)
         {
 
                  Operacje_na_bazie operacja = new Operacje_na_bazie();

@@ -39,7 +39,7 @@
             Imie:                          <asp:TextBox ID="imie" runat="server"></asp:TextBox><br /><br />
             Nazwisko:                      <asp:TextBox ID="nazwisko" runat="server"></asp:TextBox><br /><br />
             Pesel:                        <asp:TextBox ID="pesel" runat="server"></asp:TextBox><br /><br />
-            Numer Magazynu:                    <asp:TextBox ID="id_magazynu" runat="server"></asp:TextBox><br /><br />
+            Numer Magazynu:                    <asp:TextBox ID="magazyn" runat="server"></asp:TextBox><br /><br />
             <br />
 
             <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Powrót" />

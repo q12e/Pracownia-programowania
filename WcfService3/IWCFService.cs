@@ -15,7 +15,7 @@ namespace Wcf_Service
 
         //Dodawanie
         [OperationContract]
-        void dodajPracownika(string imie, string nazwisko, long pesel, int nr_magazynu);
+        void dodajPracownika(string imie, string nazwisko, string pesel, int nr_magazynu);
 
 
 

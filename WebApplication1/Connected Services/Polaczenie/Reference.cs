@@ -18,10 +18,10 @@ namespace WebApplication1.Polaczenie {
     public interface IWCFService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWCFService/dodajPracownika", ReplyAction="http://tempuri.org/IWCFService/dodajPracownikaResponse")]
-        void dodajPracownika(string imie, string nazwisko, long pesel, int nr_magazynu);
+        void dodajPracownika(string imie, string nazwisko, string pesel, int nr_magazynu);
 
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWCFService/dodajPracownika", ReplyAction="http://tempuri.org/IWCFService/dodajPracownikaResponse")]
-        System.Threading.Tasks.Task dodajPracownikaAsync(string imie, string nazwisko, long pesel, int nr_magazynu);
+        System.Threading.Tasks.Task dodajPracownikaAsync(string imie, string nazwisko, string pesel, int nr_magazynu);
 
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWCFService/dodajTowar", ReplyAction="http://tempuri.org/IWCFService/dodajTowarResponse")]
         void dodajTowar(string nazwa_towaru, int ilosc_towaru, int cena, int nr_magazynu);
@@ -81,11 +81,11 @@ namespace WebApplication1.Polaczenie {
                 base(binding, remoteAddress) {
         }
         
-        public void dodajPracownika(string imie, string nazwisko, long pesel, int nr_magazynu) {
+        public void dodajPracownika(string imie, string nazwisko, string pesel, int nr_magazynu) {
             base.Channel.dodajPracownika(imie, nazwisko, pesel, nr_magazynu);
         }
         
-        public System.Threading.Tasks.Task dodajPracownikaAsync(string imie, string nazwisko, long pesel, int nr_magazynu)        {
+        public System.Threading.Tasks.Task dodajPracownikaAsync(string imie, string nazwisko, string pesel, int nr_magazynu)        {
             return base.Channel.dodajPracownikaAsync(imie, nazwisko, pesel, nr_magazynu);
         }
         

@@ -398,3 +398,5 @@ D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\We
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WebApplication1.Tests\obj\Debug\WebApplication1.Tests.csproj.CoreCompileInputs.cache
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WebApplication1.Tests\obj\Debug\WebApplication1.Tests.dll
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WebApplication1.Tests\obj\Debug\WebApplication1.Tests.pdb
+D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WebApplication1.Tests\bin\Debug\WebApplication1.Tests.dll.CodeAnalysisLog.xml
+D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WebApplication1.Tests\bin\Debug\WebApplication1.Tests.dll.lastcodeanalysissucceeded

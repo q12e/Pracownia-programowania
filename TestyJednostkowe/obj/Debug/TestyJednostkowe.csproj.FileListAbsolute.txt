@@ -365,3 +365,5 @@ D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\Te
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\TestyJednostkowe\bin\Debug\roslyn\vbc.rsp
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\TestyJednostkowe\bin\Debug\roslyn\VBCSCompiler.exe
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\TestyJednostkowe\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\TestyJednostkowe\bin\Debug\TestyJednostkowe.dll.CodeAnalysisLog.xml
+D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\TestyJednostkowe\bin\Debug\TestyJednostkowe.dll.lastcodeanalysissucceeded
