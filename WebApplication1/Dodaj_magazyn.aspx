@@ -37,8 +37,8 @@
 
            <font size="5.5">
             Nazwa:                       <asp:TextBox ID="naz" runat="server"></asp:TextBox><br /><br />
-            Miasto:                      <asp:TextBox ID="miasto" runat="server"></asp:TextBox><br /><br />
-            Adres:                   <asp:TextBox ID="adres" runat="server"></asp:TextBox><br /><br />
+            Miasto:                      <asp:TextBox ID="miasto1" runat="server"></asp:TextBox><br /><br />
+            Adres:                   <asp:TextBox ID="adres1" runat="server"></asp:TextBox><br /><br />
 
             <asp:Button ID="Button1" runat="server" Text="Powrot" OnClick="Button1_Click1" />
 &nbsp;&nbsp;&nbsp;
