@@ -36,22 +36,22 @@ namespace WebApplication1.Polaczenie {
         System.Threading.Tasks.Task dodajMagazynAsync(string nazwa, string miasto, string adres);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWCFService/usunMagazyn", ReplyAction="http://tempuri.org/IWCFService/usunMagazynResponse")]
-        void usunMagazyn(int id_magazynu);
+        void usunMagazyn(int id);
 
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWCFService/usunMagazyn", ReplyAction="http://tempuri.org/IWCFService/usunMagazynResponse")]
-        System.Threading.Tasks.Task usunMagazynAsync(int id_magazynu);
+        System.Threading.Tasks.Task usunMagazynAsync(int id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWCFService/usunPracownika", ReplyAction="http://tempuri.org/IWCFService/usunPracownikaResponse")]
-        void usunPracownika(int id_pracownika);
+        void usunPracownika(int id);
 
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWCFService/usunPracownika", ReplyAction="http://tempuri.org/IWCFService/usunPracownikaResponse")]
-        System.Threading.Tasks.Task usunPracownikaAsync(int id_pracownika);
+        System.Threading.Tasks.Task usunPracownikaAsync(int id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWCFService/usunTowar", ReplyAction="http://tempuri.org/IWCFService/usunTowarResponse")]
-        void usunTowar(int id_towaru);
+        void usunTowar(int id);
 
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWCFService/usunTowar", ReplyAction="http://tempuri.org/IWCFService/usunTowarResponse")]
-        System.Threading.Tasks.Task usunTowarAsync(int id_towaru);
+        System.Threading.Tasks.Task usunTowarAsync(int id);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -105,28 +105,28 @@ namespace WebApplication1.Polaczenie {
             return base.Channel.dodajMagazynAsync(nazwa, miasto, adres);
         }
         
-        public void usunMagazyn(int id_magazynu) {
-            base.Channel.usunMagazyn(id_magazynu);
+        public void usunMagazyn(int id) {
+            base.Channel.usunMagazyn(id);
         }
         
-        public System.Threading.Tasks.Task usunMagazynAsync(int id_magazynu) {
-            return base.Channel.usunMagazynAsync(id_magazynu);
+        public System.Threading.Tasks.Task usunMagazynAsync(int id) {
+            return base.Channel.usunMagazynAsync(id);
         }
         
-        public void usunPracownika(int id_pracownika) {
-            base.Channel.usunPracownika(id_pracownika);
+        public void usunPracownika(int id) {
+            base.Channel.usunPracownika(id);
         }
         
-        public System.Threading.Tasks.Task usunPracownikaAsync(int id_pracownika) {
-            return base.Channel.usunPracownikaAsync(id_pracownika);
+        public System.Threading.Tasks.Task usunPracownikaAsync(int id) {
+            return base.Channel.usunPracownikaAsync(id);
         }
         
         public void usunTowar(int id) {
             base.Channel.usunTowar(id);
         }
         
-        public System.Threading.Tasks.Task usunTowarAsync(int id_towaru) {
-            return base.Channel.usunTowarAsync(id_towaru);
+        public System.Threading.Tasks.Task usunTowarAsync(int id) {
+            return base.Channel.usunTowarAsync(id);
         }
 
     }

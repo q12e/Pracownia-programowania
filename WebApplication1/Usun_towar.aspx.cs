@@ -16,7 +16,7 @@ namespace WebApplication1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            int id_towaru = Convert.ToInt32(IdTowaru.Text);
+            int id_towaru = Convert.ToInt32(id.Text);
             Polaczenie.WCFServiceClient klient = new Polaczenie.WCFServiceClient();
             klient.Open();
             klient.usunTowar(id_towaru);

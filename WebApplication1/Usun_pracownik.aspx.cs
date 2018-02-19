@@ -17,10 +17,10 @@ namespace WebApplication1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            int id = Convert.ToInt32(idPracownika.Text);
+            int idPracownika = Convert.ToInt32(id.Text);
             Polaczenie.WCFServiceClient klient = new Polaczenie.WCFServiceClient();
             klient.Open();
-            klient.usunPracownika(id);
+            klient.usunPracownika(idPracownika);
             klient.Close();
             Response.Redirect("~/Usun_pracownik.aspx");
         }

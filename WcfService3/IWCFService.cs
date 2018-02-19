@@ -31,17 +31,17 @@ namespace Wcf_Service
 
         //Usuwanie
         [OperationContract]
-        void usunMagazyn(int id_magazynu);
+        void usunMagazyn(int id);
 
 
          
         [OperationContract]
-        void usunPracownika(int id_pracownika);
+        void usunPracownika(int id);
 
 
 
         [OperationContract]
-        void usunTowar(int id_towaru);
+        void usunTowar(int id);
 
 
 

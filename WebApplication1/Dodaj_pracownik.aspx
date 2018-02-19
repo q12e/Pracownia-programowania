@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
 </head>
-<body bgcolor="#ffd480">
+<body bgcolor="#995e34">
     <center><h1>Dodawanie pracownika:</h1>
         
     <form id="form1" runat="server">

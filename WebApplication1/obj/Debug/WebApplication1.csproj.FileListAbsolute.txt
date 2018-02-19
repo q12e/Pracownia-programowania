@@ -382,7 +382,6 @@ D:\Programowanie\Projekt Pracownia Programowania c#\Projekt-master\Projekt-maste
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt-master\Projekt-master\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt-master\Projekt-master\WebApplication1\obj\Debug\WebApplication1.dll
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt-master\Projekt-master\WebApplication1\obj\Debug\WebApplication1.pdb
-D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WebApplication1\obj\Debug\WebApplication1.dll
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WebApplication1\obj\Debug\WebApplication1.pdb
@@ -478,3 +477,4 @@ D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\We
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WebApplication1\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WebApplication1\bin\Microsoft.AI.WindowsServer.xml
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WebApplication1\bin\Microsoft.AI.Web.xml
+D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache

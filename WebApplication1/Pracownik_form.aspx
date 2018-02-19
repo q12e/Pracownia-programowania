@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
 </head>
-<body bgcolor="#ffd480"><center>
+<body bgcolor="#995e34"><center>
     <form id="form1" runat="server">
         <div> <h1>Pracownicy<br /></h1>
         <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" style="margin-right: 1px" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="SqlDataSource1">

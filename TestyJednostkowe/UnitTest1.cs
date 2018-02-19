@@ -34,7 +34,7 @@ namespace TestyJednostkowe
         [TestMethod]
         public void Dodaj_Pracownika_Test()
         {
-            Pracownicy pracownicy = new Pracownicy(19, "Jan", "Kowalski", 1234124, 1);
+            Pracownicy pracownicy = new Pracownicy(19, "Jan", "Kowalski", "1234124", 1);
             Assert.IsNotNull(pracownicy);
         }
 
@@ -45,7 +45,7 @@ namespace TestyJednostkowe
 
             string imie = "Andrzej";
             string nazwisko = "Nowak";
-            long pesel = 2;
+            string pesel = "21231323";
             int id_magazynu = 2;
             Operacje_na_bazie operacja = new Operacje_na_bazie();
             int id_pracownika = operacja.getPracownicyId();

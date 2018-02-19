@@ -1,6 +1,5 @@
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\Utwor\bin\Debug\Utwor.dll
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\Utwor\bin\Debug\Utwor.pdb
-D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\Utwor\obj\Debug\KlasyMagazyn.csprojResolveAssemblyReference.cache
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\Utwor\obj\Debug\KlasyMagazyn.csproj.CoreCompileInputs.cache
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\Utwor\obj\Debug\Utwor.dll
 D:\Programowanie\Projekt Pracownia Programowania c#\Projekt - Magazyn\Magazyn\Utwor\obj\Debug\Utwor.pdb

@@ -21,10 +21,10 @@ namespace WebApplication1
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            int id = Convert.ToInt32(IdWydawnictwa.Text);
+            int idMagazynu = Convert.ToInt32(id.Text);
             Polaczenie.WCFServiceClient klient = new Polaczenie.WCFServiceClient();
             klient.Open();
-            klient.usunMagazyn(id);
+            klient.usunMagazyn(idMagazynu);
             klient.Close();
             Response.Redirect("~/Usun_magazyn.aspx");
         }

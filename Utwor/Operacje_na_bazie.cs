@@ -73,13 +73,13 @@ namespace Magazyn1
         {
             Operacje_na_bazie baza = new Operacje_na_bazie();
             baza.ConnectToSQL();
-            SqlCommand cmd = new SqlCommand("INSERT INTO [_Pracownicy] (id, imie, nazwisko, pesel, id_magazynu) VALUES "
-                + "(@id, @imie, @nazwisko, @pesel, @id_magazynu)", baza.GetConnection());
+            SqlCommand cmd = new SqlCommand("INSERT INTO [_Pracownicy]  VALUES "
+                + "(@id, @imie, @nazwisko, @pesel, @magazyn)", baza.GetConnection());
             cmd.Parameters.Add("@id", Pracownicy.getId_pracownika());
             cmd.Parameters.Add("@imie", Pracownicy.getImie());
             cmd.Parameters.Add("@nazwisko", Pracownicy.getNazwisko());
             cmd.Parameters.Add("@pesel", Pracownicy.getPesel());
-            cmd.Parameters.Add("@id_magazynu", Pracownicy.getId_magazynu());
+            cmd.Parameters.Add("@magazyn", Pracownicy.getId_magazynu());
 
 
             cmd.ExecuteNonQuery();
@@ -93,7 +93,7 @@ namespace Magazyn1
             Operacje_na_bazie baza = new Operacje_na_bazie();
             baza.ConnectToSQL();
 
-            SqlCommand cmd = new SqlCommand("INSERT INTO [_Towar] (id, nazwa, ilosc, cena, magazyn) VALUES "
+            SqlCommand cmd = new SqlCommand("INSERT INTO [_Towar]  VALUES "
                 + "(@id, @nazwa, @ilosc, @cena, @magazyn)", baza.GetConnection());
             cmd.Parameters.Add("@id", towar.getId_towaru());
             cmd.Parameters.Add("@nazwa", towar.getNazwa());
@@ -111,7 +111,7 @@ namespace Magazyn1
             Operacje_na_bazie baza = new Operacje_na_bazie();
             baza.ConnectToSQL();
 
-            SqlCommand cmd = new SqlCommand("INSERT INTO [_Magazyny] (id, nazwa, miasto, adres) VALUES "
+            SqlCommand cmd = new SqlCommand("INSERT INTO [_Magazyny]  VALUES "
                 + "(@id, @nazwa, @miasto, @adres)", baza.GetConnection());
            cmd.Parameters.Add("@id", magazyny.getId_magazynu());
             cmd.Parameters.Add("@nazwa", magazyny.getNazwa());
@@ -124,36 +124,36 @@ namespace Magazyn1
         }
 
 
-        public void UsunPracownika(int id_pracownika)
+        public void UsunPracownika(int id)
         {
             Operacje_na_bazie baza = new Operacje_na_bazie();
             baza.ConnectToSQL();
 
-            SqlCommand cmd = new SqlCommand("DELETE FROM [_Pracownicy] WHERE id = " + id_pracownika, baza.GetConnection());
+            SqlCommand cmd = new SqlCommand("DELETE FROM [_Pracownicy] WHERE id = " + id, baza.GetConnection());
 
             cmd.ExecuteNonQuery();
             baza.CloseConnection();
 
         }
 
-        public void UsunTowar(int id_towaru)
+        public void UsunTowar(int id)
         {
             Operacje_na_bazie baza = new Operacje_na_bazie();
             baza.ConnectToSQL();
 
-            SqlCommand cmd = new SqlCommand("DELETE FROM [_Towar] WHERE id = " + id_towaru, baza.GetConnection());
+            SqlCommand cmd = new SqlCommand("DELETE FROM [_Towar] WHERE id = " + id, baza.GetConnection());
 
             cmd.ExecuteNonQuery();
             baza.CloseConnection();
 
         }
 
-        public void UsunMagazyn(int id_magazynu)
+        public void UsunMagazyn(int id)
         {
             Operacje_na_bazie baza = new Operacje_na_bazie();
             baza.ConnectToSQL();
 
-            SqlCommand cmd = new SqlCommand("DELETE FROM [_Magazyny] WHERE id = " + id_magazynu, baza.GetConnection());
+            SqlCommand cmd = new SqlCommand("DELETE FROM [_Magazyny] WHERE id = " + id, baza.GetConnection());
 
             cmd.ExecuteNonQuery();
             baza.CloseConnection();

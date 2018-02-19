@@ -8,7 +8,7 @@
     <title></title>
 </head>
 
-<body bgcolor="#ffd480">
+<body bgcolor="#995e34">
     <center>
     <form id="form3" runat="server">
         <h1>Towary<br /></h1>

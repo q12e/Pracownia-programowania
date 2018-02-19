@@ -7,7 +7,7 @@
     <title>Baza Magazynow</title>
 
 </head>
-<body bgcolor="#ffd480">
+<body bgcolor="#995e34">
        <center> <h1> Baza Magazynow</h1>
     <form id="form2" runat="server">
         <div>

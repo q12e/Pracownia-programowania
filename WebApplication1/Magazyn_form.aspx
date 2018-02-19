@@ -7,7 +7,7 @@
 <head runat="server">
     <title></title>
 </head>
-<body bgcolor="#ffd480">
+<body bgcolor="#995e34">
     <center>
     <form id="form4" runat="server">
         <h1>Magazyny<br /></h1>

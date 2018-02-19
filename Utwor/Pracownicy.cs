@@ -8,30 +8,30 @@ namespace Magazyn1
 {
     public class Pracownicy
     {
-        private int id_pracownika;
+        private int id;
         private string imie;
         private string nazwisko;
         private string pesel;
-        private int id_magazynu;
+        private int magazyn;
 
-        public Pracownicy(int id_pracownika, string imie, string nazwisko, string pesel, int id_magazynu )
+        public Pracownicy(int id, string imie, string nazwisko, string pesel, int magazyn )
         {
-            this.id_pracownika = id_pracownika;
+            this.id = id;
             this.imie = imie;
             this.nazwisko = nazwisko;
             this.pesel = pesel;
-            this.id_magazynu = id_magazynu;
+            this.magazyn = magazyn;
         }
         
 
-        public void setId_pracownika(int id_pracownika)
+        public void setId_pracownika(int id)
         {
-            this.id_pracownika = id_pracownika;
+            this.id = id;
         }
 
         public int getId_pracownika()
         {
-            return id_pracownika;
+            return id;
         }
 
 
@@ -69,14 +69,14 @@ namespace Magazyn1
         }
 
 
-        public void setId_magazynu(int id_magazynu)
+        public void setId_magazynu(int magazyn)
         {
-            this.id_magazynu = id_magazynu;
+            this.magazyn = magazyn;
         }
           
         public int getId_magazynu()
         {
-            return id_magazynu;
+            return magazyn;
         }
     }
 }

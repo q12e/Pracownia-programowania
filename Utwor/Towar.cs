@@ -8,15 +8,15 @@ namespace Magazyn1
 {
     public class Towar
     {
-        private int id_towaru;
+        private int id;
         private string nazwa_towaru;
         private int ilosc_towaru;
         private int cena;
         private int nr_magazynu;
 
-        public Towar(int id_towaru, string nazwa_towaru, int ilosc_towaru, int cena, int nr_magazynu)
+        public Towar(int id, string nazwa_towaru, int ilosc_towaru, int cena, int nr_magazynu)
         {
-            this.id_towaru = id_towaru;
+            this.id = id;
             this.nazwa_towaru = nazwa_towaru;
             this.ilosc_towaru = ilosc_towaru;
             this.cena = cena;
@@ -25,14 +25,14 @@ namespace Magazyn1
         }
 
 
-        public void setId_towaru(int id_towaru)
+        public void setId_towaru(int id)
         {
-            this.id_towaru = id_towaru;
+            this.id = id;
         }
 
         public int getId_towaru()
         {
-            return id_towaru;
+            return id;
         }
 
         public void setNazwa(string nazwa_towaru)

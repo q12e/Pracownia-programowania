@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
-<body bgcolor="#ffd480">
+<body bgcolor="#995e34">
     <form id="form1" runat="server">
         <div><center>
             <h1>Usuwanie Towaru:</h1>
@@ -35,7 +35,7 @@
 
             <br /><br />
             <font size="5.5">Podaj Id towaru:&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="IdTowaru" runat="server" ></asp:TextBox><br />
+            <asp:TextBox ID="id" runat="server" ></asp:TextBox><br />
             <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Powrót" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Usuń" />

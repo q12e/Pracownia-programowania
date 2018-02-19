@@ -8,28 +8,28 @@ namespace Magazyn1
 {
     public class Magazyny
     {
-        private int id_magazynu;
+        private int id;
         private string nazwa;
         private string miasto;
         private string adres;
 
 
-        public Magazyny(int id_magazynu, string nazwa, string miasto, string adres)
+        public Magazyny(int id, string nazwa, string miasto, string adres)
         {
-            this.id_magazynu = id_magazynu;
+            this.id = id;
             this.nazwa = nazwa;
             this.miasto = miasto;
             this.adres = adres;
           }
 
-        public void setId_magazynu(int id_magazynu)
+        public void setId_magazynu(int id)
         {
-            this.id_magazynu = id_magazynu;
+            this.id = id;
         }
 
         public int getId_magazynu()
         {
-            return id_magazynu;
+            return id;
         }
         public void setNazwa(string nazwa)
         {

@@ -30,8 +30,8 @@ namespace Wcf_Service
         {
 
                  Operacje_na_bazie operacja = new Operacje_na_bazie();
-                 int id_pracownika = operacja.getPracownicyId();
-                 Pracownicy pracownicy= new Pracownicy(id_pracownika, imie, nazwisko, pesel, id_magazynu);
+                 int id = operacja.getPracownicyId();
+                 Pracownicy pracownicy= new Pracownicy(id, imie, nazwisko, pesel, id_magazynu);
 
                  operacja.DodajPracownikaDoBazy(pracownicy);
                  operacja.CloseConnection();
@@ -40,32 +40,32 @@ namespace Wcf_Service
         {
 
                 Operacje_na_bazie operacja = new Operacje_na_bazie();
-                int id_magazynu = operacja.getMagazynyId();
-                Magazyny magazyny = new Magazyny(id_magazynu, nazwa, miasto, adres);
+                int id = operacja.getMagazynyId();
+                Magazyny magazyny = new Magazyny(id, nazwa, miasto, adres);
 
                 operacja.DodajMagazynDoBazy(magazyny);
                 operacja.CloseConnection();
         }
 
-        public void usunTowar(int id_towaru)
+        public void usunTowar(int id)
         {
                  Operacje_na_bazie baza = new Operacje_na_bazie();
 
-                 baza.UsunTowar(id_towaru);
+                 baza.UsunTowar(id);
         }
 
-        public void usunPracownika(int id_pracownika)
+        public void usunPracownika(int id)
         {
                 Operacje_na_bazie baza = new Operacje_na_bazie();
 
-                baza.UsunPracownika(id_pracownika);
+                baza.UsunPracownika(id);
         }
 
-        public void usunMagazyn(int id_magazynu)
+        public void usunMagazyn(int id)
         {
                 Operacje_na_bazie baza = new Operacje_na_bazie();
 
-                baza.UsunMagazyn(id_magazynu);
+                baza.UsunMagazyn(id);
         }
 
         

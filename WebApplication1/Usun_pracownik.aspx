@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
 </head>
-<body bgcolor="#ffd480">
+<body bgcolor="#995e34">
     <form id="form1" runat="server">
         <div><center>
             <h1>Usuwanie Pracownika:</h1>
@@ -34,7 +34,7 @@
 
             <br /><br />
             <font size="5.5">Podaj Id pracownika:&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="id_pracownika" runat="server" ></asp:TextBox><br />
+            <asp:TextBox ID="id" runat="server" ></asp:TextBox><br />
             <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Powrót" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Usuń" />
